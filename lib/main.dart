@@ -36,7 +36,7 @@ class _TemperatureConverterState extends State<TemperatureConverter> {
       _convertedValue = result.toStringAsFixed(2);
       _conversionHistory.insert(
         0,
-        '${_selectedConversion == 'F to C' ? 'F to C' : 'C to F'}: $inputValue => $_convertedValue',
+        '${_selectedConversion == 'F to C' ? 'F to C' : 'C to F'}: $inputValue is equivalent to $_convertedValue',
       );
     });
   }
